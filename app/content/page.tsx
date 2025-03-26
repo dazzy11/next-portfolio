@@ -21,15 +21,6 @@ export const HomePage = (): JSX.Element => {
             <div className={styles["text-wrapper-4"]}>Know more</div>
           </div>
         </div>
-        <div className={styles.splineFrame}>
-          <iframe
-            src="https://my.spline.design/cubic-f720db0856f721dfee85b70bc87f3805/"
-            frameBorder="0"
-            width="100%"
-            height="100%"
-          ></iframe>
-        </div>
-        
       </div>
     </div>
   );

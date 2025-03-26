@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './page.module.css';
 import Head from 'next/head';
+import Link from 'next/link';
 
 const Page = () => {
   return (
@@ -13,6 +14,13 @@ const Page = () => {
 
       <h1 className={styles.font1}>DEEPAK</h1>
       <p className={styles.caveat}>I’m a full-stack developer</p>
+      <Link href="/content" passHref>
+      <div className={styles.component} >
+        <div className={styles.overlapGroup}>
+          <span className={styles.buttonText}>Know more</span>
+        </div>
+      </div>
+      </Link>
     </>
   );
 };
